@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guía Nutricional Saludable</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Guía Nutricional Saludable</h1>
+  </header>
+
+  <nav>
+    <button data-tab="verduras">Verduras</button>
+    <button data-tab="frutas">Frutas</button>
+    <button data-tab="cereales">Cereales y Legumbres</button>
+    <button data-tab="aderezos">Aderezos</button>
+  </nav>
+
+  <main>
+    <div class="contenedor-flex">
+      <section id="contenido-categoria"></section>
+
+      <div class="contenedor-doble">
+        <section class="recuadro">
+          <h3>Plan diario recomendado</h3>
+          <ul id="plan"></ul>
+        </section>
+
+        <section class="recuadro">
+          <h3>Recomendaciones y consejos</h3>
+          <ul id="recomendaciones"></ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Guía Nutricional. Página creada por Kyron-San.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
